@@ -1,5 +1,5 @@
 from sys import prefix
-from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
+from fastapi import status, HTTPException, Depends, APIRouter
 
 import schemas, models, utils
 from sqlalchemy.orm import Session
